@@ -37,7 +37,7 @@ setup(
     include_package_data=True,
     platforms='any',
     install_requires=[
-        'SQLAlchemy>=0.9.4',
+        'SQLAlchemy>=0.9.4,<1.1',
         'SQLAlchemy-Utils>=0.29.8'
     ],
     classifiers=[
